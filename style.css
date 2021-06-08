@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#mainHeader {
+    background: darkslategrey;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+#mainHeader #mainTitle {
+    font-size:xx-large;
+    color: antiquewhite;    
+}
+
+#navbar {
+    background: rgb(115, 173, 173);
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 6px;
+}
+ 
+#navbar li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color:midnightblue;
+}
+
+#navbar a:hover{
+    color: rgb(46, 46, 207);
+    text-decoration:solid;
+    
+}
+
+section h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: italic;
+   text-align: center;
+}
+
+
+
+
+
+#mainNavigation {
+    display: flex;
+}
+
+#mainNavigation section {
+    width: 100%;
+}
+
+
+
+#mainNavigation #va-support h1 {
+    color:rgb(117, 113, 48);
+    
+}
+
+#mainNavigation #va-support p{
+    color:rgb(180, 120, 60);
+    
+}
+
+
+
+
+
+
+#mainNavigation #vector-graphic h1 {
+    color:rgb(83, 100, 35);
+    
+}
+
+#mainNavigation #vector-graphic p{
+    color:rgb(180, 111, 43);
+    
+}
+
+
+
+
+
+
+#mainNavigation #storage h1 {
+    color:rgb(117, 113, 48);
+    
+}
+
+#mainNavigation #storage p{
+    color:rgb(180, 120, 60);
+    
+}
+
+
+
+
+
+#mainNavigation #wbs h1 {
+    color:rgb(117, 113, 48);
+    
+}
+
+#mainNavigation #wbs p{
+    color:rgb(180, 120, 60);
+    
+}
+
+
+
+
+#mainNavigation #eou h1 {
+    color:rgb(117, 113, 48);
+    
+}
+
+#mainNavigation #eou p{
+    color:rgb(180, 120, 60);
+    
+}
+
+#imagecont {
+    display: flex;
+    justify-content: center;
+}
+
+
